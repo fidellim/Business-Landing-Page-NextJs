@@ -1,14 +1,23 @@
-## Getting Started
+# Business Landing Page (NextJs)
 
-Install the dependencies and run the development server
+A professional landing page created using NextJs and Theme UI.
 
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
+## Screenshot
 
-Theme UI
-NextJs
+![Landing Page](/images/landing_page.png)
+
+## Links
+
+- Solution URL: [Solution](https://github.com/fidellim/Business-Landing-Page-NextJs)
+- Live Site URL: [Live Site](https://business-landing-page-next-fidellim.vercel.app/)
+
+## Built with
+
+- NextJs
+- Theme UI
+
+## Author
+
+- Website - [Fidel Lim](https://fidellim-portfolio.netlify.app/)
+- Frontend Mentor - [@fidellim](https://www.frontendmentor.io/profile/fidellim)
+- Github - [@fidellim](https://github.com/fidellim)
