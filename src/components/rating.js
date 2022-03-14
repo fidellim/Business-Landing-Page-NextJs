@@ -1,10 +1,31 @@
-import React from 'react';
-import { FaStar } from 'react-icons/fa';
+import React from "react";
+import lib from "react-custom-scrollbars";
+import { FaStar } from "react-icons/fa";
 
-const Rating = () => {
-  return (
-    <h1>Rating</h1>
-  );
+const Rating = ({ rating }) => {
+	const totalRating = [];
+
+	for (let i = 0; i < 5; i++) {
+		if (i < rating) {
+			totalRating.push(
+				<li className="star" key={i}>
+					<FaStar />
+				</li>
+			);
+		} else {
+			totalRating.push(
+				<li className="star-o" key={i}>
+					<FaStar />
+				</li>
+			);
+		}
+	}
+
+	return (
+		<div className="rating">
+			<ul>{totalRating}</ul>
+		</div>
+	);
 };
 
 export default Rating;
